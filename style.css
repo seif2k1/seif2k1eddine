@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: url(/img//fortnite-season-4-nexus-war-game.jpg) no-repeat fixed top right/cover;
+}
+#navbar-one{
+    margin: 15px;
+}
+img{width: 100%;}
+#hero{
+    background-image: linear-gradient(to bottom,blue,purple);
+}
+
+#gallery-one{
+    background  : url(/img/stream-01.jpg) no-repeat  top right/cover ;
+    color:white;
+    transition: 2s;
+}
+#gallery-two{
+    background  : url(/img/stream-02.jpg) no-repeat  top right/cover;
+    color:white;
+    transition: 2s;}
+#gallery-three{
+    background  : url(/img/stream-03.jpg) no-repeat  top right/cover;
+    color:white;
+    transition: 2s;}
+#gallery-four{
+    background  : url(/img/stream-04.jpg) no-repeat  top right/cover;
+    color:white;
+    transition: 2s;
+}
+#gallery-one:hover .card-text, #gallery-two:hover .card-text,#gallery-three:hover .card-text,#gallery-four:hover .card-text{
+    border : 1px solid white;
+    color:white; 
+    padding:15px;
+}
+#gallery-one:hover,#gallery-two:hover,#gallery-three:hover,#gallery-four:hover{
+    transform:rotate(360deg);
+}
+
+#seif{
+    max-width: 100%;
+}
+#seif iframe{
+    width: 100%;
+}
